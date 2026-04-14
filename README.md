@@ -30,7 +30,7 @@ The repository includes:
 ## Results
 
 <p align="center">
-  <img src="assets/figures/results.png" alt="Round-trip relay results for 19 LLMs" width="800">
+  <img src="assets/figures/results.png" alt="Round-trip relay results for 19 LLMs" width="600">
 </p>
 
 We evaluated 19 LLMs from six families (OpenAI, Anthropic, Google, Mistral, xAI, Moonshot) using the Reconstruction Score (RS@k), which measures document preservation after k interactions via domain-specific similarity functions.
