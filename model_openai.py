@@ -1,7 +1,6 @@
 """
 Standalone OpenAI / Azure OpenAI wrapper providing generate() and generate_json().
 
-Drop-in replacement for the internal `llms` package used by this benchmark.
 Set OPENAI_API_KEY (or AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT) in your
 environment before running.
 """
@@ -202,14 +201,9 @@ class OpenAI_Model:
 
 
 # ── Module-level convenience functions ───────────────────────────────────
-
-# These two lines point to an internal endpoint
-from llms import generate, generate_json  # noqa: F401
-
-# These point to a standard OpenAI API endpoint
-# _model = OpenAI_Model()
-# generate = _model.generate
-# generate_json = _model.generate_json
+_model = OpenAI_Model()
+generate = _model.generate
+generate_json = _model.generate_json
 
 
 if __name__ == "__main__":
