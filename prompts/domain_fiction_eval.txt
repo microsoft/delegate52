@@ -1,0 +1,199 @@
+You are given a creative short-story. Read it carefully. You will then be given 14 different tests about creative writing aspects. Each test includes background information and a question.
+
+Your task is to evaluate the story against all 14 tests and return a JSON object with your ratings on a 0-5 Likert scale where:
+- 5 = Strong Yes (story clearly passes this test)
+- 4 = Moderate Yes (story mostly passes this test)
+- 3 = Slight Yes (story somewhat passes this test)
+- 2 = Slight No (story somewhat fails this test)
+- 1 = Moderate No (story mostly fails this test)
+- 0 = Strong No (story clearly fails this test)
+
+==========
+Story:
+
+[[STORY]]
+
+==========
+
+Now, please evaluate this story against the following 14 tests:
+
+Test 1: Narrative Ending (Fluency)
+
+Background:
+If the writer ends the piece simply because they are 'tired of writing', the conclusion might feel abrupt, disjointed, or unfulfilling to the reader. It suggests a rushed ending, where plot threads might be left unresolved and character arcs incomplete.
+
+Conversely, if the writer concludes because they've reached 'the moment the entire piece has been leading readers towards', it implies a well-considered and purposeful ending. The events, character development, and themes throughout the story have built towards this climactic moment, providing a satisfying resolution to the reader.
+
+A strong ending offers a sense of closure, ties up the central conflicts or questions of the story, and generally leaves the reader feeling that the narrative journey was worthwhile and complete.
+
+Question: Does the end of the story feel natural and earned, as opposed to arbitrary or abrupt?
+
+Test 2: Understandability and Coherence (Fluency)
+
+Background:
+A well-crafted story usually follows a logical path, where the events in the beginning set up the middle, which then logically leads to the end. Every scene, character action, and piece of dialogue should serve the story and propel it forward. Well-written stories have an underlying unity that binds the elements together. The themes, plotlines, character arcs, and other elements of the story interweave to create a harmonious whole. A story with 'disorder' might feel disjointed, with characters, scenes, etc that don't connect or contribute to the overall narrative.
+
+Question: Do the different elements of the story work together to form a unified, engaging, and satisfying whole?
+
+Test 3: Scene vs Summary (Fluency)
+
+Background:
+'Scene' and 'summary/exposition' are two crucial elements of narrative storytelling, and balancing them appropriately is an important skill in fiction writing.
+
+A 'scene' is a moment in the story that is dramatized in real-time. Scenes are usually vivid and engaging, often featuring character interaction, dialogue, and action. They are the building blocks of the plot, and through them, the story unfolds.
+
+'Summary' or 'exposition', on the other hand, involves summarizing events or providing information. Instead of unfolding in real time, summaries compress time and tell the reader what happened. Exposition provides necessary background information, like character history, setting details, or prior events. 
+
+A good writer knows when to use scenes to make the story come alive, show character development, or increase tension. They also know when to use summary or exposition to move the story forward, fill in background information, or bridge gaps between important scenes. 
+
+The right balance between scene and summary/exposition can vary depending on the story, but in general, it's essential for maintaining a good pace, keeping the reader engaged, and delivering necessary information. A story with too many scenes and not enough summary might feel overwhelming or slow, while a story with too much exposition and not enough scenes could feel dry and unengaging.
+
+Question: Does the story have an appropriate balance between scene and summary/exposition or it relies on one of the elements heavily compared to the other?
+
+Test 4: Narrative Pacing (Fluency)
+
+Background:
+'Compression/stretching of time' in fiction writing, also known as pacing, refers to the manipulation of time in storytelling for dramatic effect, pacing, or other narrative purposes. Essentially, it's about controlling the perceived speed and rhythm at which a story unfolds.
+
+Compression of time refers to when events that take a long time (hours, days, weeks, or even years) are summarized or condensed into a brief narrative span. For example, a writer might compress several years of a character's life into a few paragraphs to quickly convey important changes or developments.
+
+On the other hand, stretching of time is when a brief moment or event is drawn out over pages or chapters. It's often used to create suspense, emphasize details, or delve deeper into a character's thoughts and feelings. For example, the few seconds it takes for a dropped glass to hit the floor might be stretched out with detailed descriptions of the action, reactions, and thoughts of characters involved.
+
+Story time refers to the time within the world of the story, while real world time refers to the time it takes for the reader to read the story. A skilled writer can manipulate the relationship between these two to affect the pacing of the narrative, either speeding it up (compression) or slowing it down (stretching). This technique plays a crucial role in shaping the reader's experience and engagement with the story.
+
+Question: Does the manipulation of time in terms of compression or stretching feel appropriate and balanced?
+
+Test 5: Language Proficiency and Literary Devices (Fluency)
+
+Background:
+'Idiom' refers to phrases or expressions that have a figurative, or sometimes literal, meaning that is comprehensible to a particular group of people. These can be cultural, regional, or specific to a certain group or profession. Sophisticated use of idiom suggests that the writer is skillfully using these expressions to lend authenticity to character voices or to convey specific meanings in a concise way.
+
+'Metaphor' is a figure of speech that describes an object or action in a way that isn't literally true, but helps explain an idea or make a comparison. Sophisticated use of metaphor suggests the writer could create impactful, original comparisons that reveal deeper insights about themes, characters, or situations in the story.
+
+'Literary allusion' refers to a brief and indirect reference to a person, place, thing or idea of historical, cultural, literary or political significance. It does not describe in detail the person or thing to which it refers. A sophisticated use of literary allusion implies the writer can effectively incorporate these references to enhance the depth and resonance of the story. They can provide contextual richness, evoke a specific tone, or draw parallels between the narrative and the work alluded to. 
+
+Overall, when a writer uses these techniques well, they add depth, interest, and nuanced meaning to their work. It allows for a richer reading experience, where the literal events are imbued with deeper symbolic or thematic significance.
+
+Question: Does the story make sophisticated use of idiom or metaphor or literary allusion?
+
+Test 6: Emotional Flexibility (Flexibility)
+
+Background:
+'Emotional flexibility' is asking whether the piece of writing effectively balances action and introspection, and if it portrays a broad and realistic spectrum of emotions.
+
+'Exteriority' refers to the observable actions, behaviors, or dialogue of a character, and the physical or visible aspects of the setting, plot, and conflicts.
+
+'Interiority', on the other hand, pertains to the inner life of a character — their thoughts, feelings, memories, and subjective experiences.
+
+A balance between these two aspects is crucial in creating well-rounded characters and compelling narratives. If a piece is too heavy on exteriority, it may feel shallow or lack emotional depth. If it leans too much on interiority, it could become overly introspective and potentially lose the momentum of the plot.
+
+Question: Does the story achieve a good balance between interiority and exteriority, in a way that feels emotionally flexible?
+
+Test 7: Structural Flexibility (Flexibility)
+
+Background:
+'Surprising': This refers to the element of unpredictability in a narrative. A good story often has plot twists, character developments, or thematic revelations that surprise the reader, subverting their expectations in a thrilling way. It's about keeping readers engaged and curious, never fully knowing what's going to happen next.
+
+'Appropriate': Despite the surprises and twists, the turns in the story must also make sense within the established context of the story's universe, its characters, and its themes. This means that even though an event might be surprising, it should feel appropriate or fitting in hindsight. It shouldn't feel like the writer has broken the rules they've set up, or made a character behave inconsistently without reason, simply for the sake of shock value.
+
+So when someone wonders if a writer can make turns that are 'both surprising and appropriate', they're asking if the writer can strike this balance between unexpectedness and coherence, keeping the reader on their toes while maintaining a believable, satisfying narrative.
+
+Question: Does the story contain turns that are both surprising and appropriate?
+
+Test 8: Perspective and Voice Flexibility (Flexibility)
+
+Background:
+A good writer can convincingly and accurately depict a wide range of character viewpoints, including those of characters who may be morally ambiguous, difficult, or otherwise unappealing.
+
+This can involve diving into the mindset of characters who may act or think in ways that the reader, or even the writer, finds objectionable or repugnant. It involves understanding their motivations, their beliefs, and the reasons behind their actions, and then conveying these elements in a way that is believable and consistent.
+
+The purpose of doing so is not to justify or endorse these perspectives, but rather to create complex, three-dimensional characters who contribute to the richness and depth of the story. This can also serve to challenge the reader, provoke thought, and provide insights into different aspects of the human experience.
+
+Question: Does the story provide diverse perspectives, and if there are unlikeable characters, are their perspectives presented convincingly and accurately?
+
+Test 9: Originality in Thought (Originality)
+
+Background:
+A cliche is an idea, expression, character, or plot that has been overused to the point of losing its original meaning or impact. They often become predictable and uninteresting for the reader. Originality suggests that the piece isn't cliche.
+
+Question: Is the story an original piece of writing without any cliches?
+
+Test 10: Originality in Form and Structure (Originality)
+
+Background:
+When someone says that a piece of fiction 'shows an innovative use of form/structure', they're referring to how the writer has chosen to shape and organize the story in an unusual, original, or inventive way. This could involve a variety of different elements, including:
+
+Narrative Structure: This could include unconventional timelines (e.g. a non-linear story, a story told in reverse), multiple perspectives or narrators, or unusual narrative voices (e.g. a story told from the perspective of an inanimate object).
+
+Format: This could be something as simple as using unconventional punctuation or capitalization, or as complex as telling a story through a series of letters, diary entries, newspaper clippings, or other documents. In recent years, some authors have even experimented with using social media posts or text messages as a form of narrative structure.
+
+Genre Hybridity: Combining elements from different genres or sub-genres in unexpected ways can also be seen as an innovative use of form/structure such as Horror-Mystery or Comic Fantasy.
+
+Plot Structure: Deviating from traditional plot structures such as three-act structure, or following them in unexpected ways. For example, telling a story without a clear resolution, or incorporating multiple climaxes or using revelation as a device where a surprising, and often shocking, development occurs that was previously kept hidden from the characters and/or the audience. It's typically designed to provide new context for interpreting what has previously occurred in the story. 
+
+Language and Style: Innovative use of form can also come in the form of unique use of language, style, or even typography, such as concrete poetry or writing that visually represents its subject matter on the page.
+
+The goal of this innovation is often to provide a fresh reader experience, challenge conventional reading expectations, or to create a deeper or more complex exploration of the story's themes.
+
+Given the story and the devices mentioned above, list each device used with a short explanation of whether it is successful or not.  Then overall, give your reasoning about the question below and give an answer to it between 'Yes' or 'No' only
+
+Q) Does the story show originality in its form and/or structure?
+
+Question: Does the story show originality in its form and/or structure?
+
+Test 11: Originality in Theme and Content (Originality)
+
+Background:
+If a story is good, the reader gains new insights, perspectives, or knowledge from it . This doesn't necessarily mean factual information, but could relate to a deeper understanding of human nature, cultural insights, unique viewpoints, or even the exploration of new ideas and themes. Essentially, it's about what the reader takes away from the story beyond just the plot
+
+A good story has lasting impacts on its reader and the society. It is meant to entertain, inform, provoke thought, challenge beliefs, provide comfort, or raise awareness on specific issues.
+
+Question: Will an average reader of this story obtain a unique and original idea from reading it?
+
+Test 12: Rhetorical Complexity (Elaboration)
+
+Background:
+'Surface' level: This is the most apparent and straightforward level of a story. It includes the visible actions, explicit dialogue, and clear descriptions. This is what literally happens in the plot: the characters' actions, events, and the apparent consequences.
+
+'Subtext' level: This is the underlying or implicit meaning that isn't directly stated but can be inferred from the characters' actions, dialogue, and other elements of the story. Subtext often reveals deeper truths about characters, themes, or the overall message of the piece. It could be a hidden motive, an unstated emotion, a cultural commentary, or a symbolic meaning.
+
+For example, in a conversation between two characters, the surface text might be polite and cordial, but the subtext — discerned from the characters' nonverbal cues, previous interactions, or the context of their conversation — could suggest tension or hostility.
+
+Effective fiction often operates on both levels. The surface text keeps the reader engaged with the plot and characters, while the subtext provides depth, complexity, and additional layers of interpretation, contributing to a richer and more rewarding reading experience.
+
+Question: Are there passages in the story that involve subtext and when there is subtext, does it enrich the story's setting or does it feel forced?
+
+Test 13: World Building and Setting (Elaboration)
+
+Background:
+Sensory details pertain to the five senses - sight, sound, touch, taste, and smell. An effective writer can use these elements to paint a detailed picture of the story's environment, making it feel tangible and real to the reader.
+
+For example, describing the specific colors and shapes in a scene, the sounds that fill a space, the textures and temperatures that a character comes into contact with, the flavors of the food they eat, or the scents that fill the air, can all contribute to creating a sensory-rich and believable world.
+
+By stimulating the reader's senses, the writer can make the reader feel as though they're experiencing the events of the story firsthand. This level of detail contributes to the believability of the world, even if it's a completely fictional or fantastical setting. It helps the reader to suspend disbelief and become more deeply invested in the narrative.
+
+Question: Does the writer make the fictional world believable at the sensory level?
+
+Test 14: Character Development (Elaboration)
+
+Background:
+A 'flat character' is typically a minor character who is not thoroughly developed or who does not undergo significant change or growth throughout the story. They often embody or represent a single trait or idea, and they're used to advance the plot or highlight certain qualities in other characters.
+
+A 'complex character', also known as a round character, has depth in feelings and passions, has a variety of traits of a real human being, and evolves over time. They have their strengths, weaknesses, and they learn from their experiences. They tend to be more engaging to the reader, as they mirror the complexity of real people.
+
+In good stories, authors take a character who initially appears to be one-dimensional or stereotypical (flat) and add depth to them. This could be done by revealing more about their backstory, introducing unexpected traits or motivations, or having them grow and change in response to the events of the story. This transformation from a flat to a complex character can make the narrative more engaging and believable.
+
+Question: Does each character in the story feel developed at the appropriate complexity level, ensuring that no character feels like they are present simply to satisfy a plot requirement?
+
+
+==========
+
+Please provide your response as a JSON object with the following format:
+{
+  "test1": 0-5,
+  "test2": 0-5,
+  ...
+  "test14": 0-5
+}
+
+For each test, provide a rating from 0 to 5 based on how well the story passes that test. Be consistent with the evaluation criteria provided in each test's background information.

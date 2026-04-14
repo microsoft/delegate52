@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Document -->
+  <path d="M6 2h8l4 4v16H6z"/>
+  <path d="M14 2v4h4"/>
+  <!-- Lines on doc -->
+  <line x1="9" y1="9" x2="15" y2="9" stroke-width="1"/>
+  <line x1="9" y1="17" x2="15" y2="17" stroke-width="1"/>
+  <line x1="9" y1="19" x2="13" y2="19" stroke-width="1"/>
+  <!-- Ribbon banner across middle -->
+  <rect x="4" y="9.5" width="16" height="8" fill="#0A0A0A" stroke="black"/>
+  <!-- "EDI" text on ribbon -->
+  <text x="12" y="15" font-size="6" fill="white" stroke="none" font-family="sans-serif" font-weight="bold" text-anchor="middle">EDI</text>
+</svg>

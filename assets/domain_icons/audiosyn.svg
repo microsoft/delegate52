@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- AM-modulated waveform: high-frequency sine with amplitude envelope that swells in the middle -->
+  <path d="M1 12 Q1.5 11.7, 2 12 Q2.5 12.3, 3 12 Q3.5 11.2, 4 12 Q4.5 12.8, 5 12 Q5.5 10.5, 6 12 Q6.5 13.5, 7 12 Q7.5 8, 8 12 Q8.5 16, 9 12 Q9.5 5, 10 12 Q10.5 19, 11 12 Q11.5 0, 12 12 Q12.5 24, 13 12 Q13.5 0, 14 12 Q14.5 19, 15 12 Q15.5 5, 16 12 Q16.5 16, 17 12 Q17.5 8, 18 12 Q18.5 13.5, 19 12 Q19.5 10.5, 20 12 Q20.5 12.8, 21 12 Q21.5 11.2, 22 12 Q22.5 12.3, 23 12"/>
+</svg>

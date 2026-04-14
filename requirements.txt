@@ -1,0 +1,46 @@
+# ── Core ─────────────────────────────────────────────────────────────────
+openai
+ujson
+tqdm
+tiktoken
+numpy
+scipy
+matplotlib
+pymongo                        # provides bson (used by utils_results for ID generation)
+
+# ── Domain-specific ─────────────────────────────────────────────────────
+# Individual domain packages:
+adif_io                        # hamradio
+ase                            # crystal (visualization)
+biopython                      # protein (PDB parsing via Bio.PDB)
+biotite                        # protein (ball-and-stick visualization)
+CairoSVG                       # vector (SVG rendering)
+conllu                         # treebank (CoNLL-U parsing)
+dnspython                      # dns (BIND zone file parsing)
+fonttools                      # fonteng (OpenType .fea feature file parsing)
+gpxpy                          # geotrack (GPX track/waypoint parsing)
+icalendar                      # calendar
+metar                          # weather (ICAO METAR observation parsing)
+nltk                           # fiction
+openqasm3[parser]              # quantum (OpenQASM 3.0 circuit parsing)
+opencv-python                  # image
+Pillow                         # image
+plyara                         # malware (YARA rule parsing)
+polib                          # translation (PO/MO file parsing)
+pydifact                       # edifact (UN/EDIFACT message parsing)
+pydot                          # graphviz (DOT graph parsing)
+pymarc                         # libcatalog (MARCXML library catalog parsing)
+pymatgen                       # crystal (CIF parsing with symmetry expansion)
+PyCifRW                        # crystal (CIF crystallographic file parsing)
+python-chess                   # chess
+python-gedcom                  # genealogy
+python-hcl2                    # infra (Terraform HCL parsing)
+python-ly                      # musicsheet (Lilypond parsing)
+PyYAML                         # json (YAML support)
+qiskit                         # quantum (circuit simulation)
+rdkit                          # molecule (SDF molecular structure comparison)
+scikit-image                   # image, audio
+soundfile                      # audio (audio file I/O)
+librosa                        # audio (mel-spectrogram, chroma, resampling)
+spicelib                       # circuit (SPICE netlist parsing)
+srt                            # subtitles

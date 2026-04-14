@@ -1,0 +1,10 @@
+You are given a program consisting of one or several files, and an editing operation requested by the user. Your goal is to rewrite the program to meet the editing requested by the user.
+
+CODE CONTEXT:
+[[INPUT_CONTEXT]]
+
+Your output should consist of one or several code blocks, each starting with ```<file_name> and ending with ```.
+You must produce the following files: [[FILE_NAMES]]
+
+EDITING OPERATION:
+[[EDITING_OPERATION]]

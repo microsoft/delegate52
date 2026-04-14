@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Back document (bottom-right, Asian text) -->
+  <rect x="9" y="9" width="13" height="13" rx="2" fill="#0A0A0A" stroke="black"/>
+  <!-- Japanese-style characters on back doc -->
+  <text x="17.5" y="19" font-size="7" fill="white" stroke="none" font-family="serif" font-weight="bold" text-anchor="middle">あ</text>
+  <!-- Front document (top-left, Latin text) -->
+  <rect x="2" y="2" width="13" height="13" rx="2" fill="#0A0A0A" stroke="black"/>
+  <text x="8.5" y="12" font-size="7.5" fill="white" stroke="none" font-family="serif" font-weight="bold" font-style="italic" text-anchor="middle">Ab</text>
+</svg>

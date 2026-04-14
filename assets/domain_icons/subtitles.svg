@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2" y="4" width="20" height="16" rx="2"/>
+  <!-- "SRT" label in upper area -->
+  <text x="12" y="11.5" font-size="5.5" fill="black" stroke="none" font-family="sans-serif" font-weight="bold" letter-spacing="0.5" text-anchor="middle">SRT</text>
+  <!-- Subtitle lines, lifted from bottom border -->
+  <line x1="6" y1="14" x2="18" y2="14"/>
+  <line x1="8" y1="17" x2="16" y2="17"/>
+</svg>

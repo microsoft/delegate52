@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Fuselage -->
+  <path d="M12 2C12 2 13 4 13 8L13 16C13 18 12 22 12 22C12 22 11 18 11 16L11 8C11 4 12 2 12 2Z"/>
+  <!-- Wings -->
+  <path d="M11 9L2 13L2 14L11 12"/>
+  <path d="M13 9L22 13L22 14L13 12"/>
+  <!-- Tail fins -->
+  <path d="M11 17L7 20L7 21L11 19"/>
+  <path d="M13 17L17 20L17 21L13 19"/>
+  <!-- Windows -->
+  <line x1="12" y1="5" x2="12" y2="6" stroke-width="1"/>
+  <line x1="12" y1="7" x2="12" y2="8" stroke-width="1"/>
+</svg>

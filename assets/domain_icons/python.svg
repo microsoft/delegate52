@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Document -->
+  <path d="M5 2h10l4 4v16H5z"/>
+  <path d="M15 2v4h4"/>
+  <!-- Lines on doc -->
+  <line x1="8" y1="9" x2="16" y2="9" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="8" y1="17" x2="16" y2="17" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="8" y1="19" x2="14" y2="19" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Ribbon banner across middle -->
+  <rect x="3" y="9" width="18" height="9" fill="#0A0A0A" stroke="black"/>
+  <!-- "Py" text on ribbon -->
+  <text x="12" y="15.5" font-size="7" fill="white" stroke="none" font-family="sans-serif" font-weight="bold" text-anchor="middle">Py</text>
+</svg>

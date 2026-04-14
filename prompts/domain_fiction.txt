@@ -1,0 +1,16 @@
+You are given a short fiction piece, and an editing operation requested by the user. Your goal is to rewrite the fiction to meet the editing needs requested by the user.
+
+EDITING OPERATION:
+[[EDITING_OPERATION]]
+
+FICTION CONTEXT:
+[[INPUT_CONTEXT]]
+
+Your output should consist of a text block starting with ```<file_name> and ending with ```.
+You must produce the following files: [[FILE_NAMES]]
+
+Rules:
+- [In Depth Editing] You should edit the fiction in depth to match the editing request by the user, at times adapting the scene and characters to fit the editing request.
+- [Plausibility] You must ensure that the edited fiction is plausible and consistent with the original fiction. You might need to change character names, locations, or other details to make the fiction plausible with respect to the edit.
+- [Conserve Style] Conserve the elements of style from the original as possible.
+- [Length Preservation] The current length of the fiction is [[CURRENT_LENGTH]] words. The target length for the fiction is [[TARGET_LENGTH]] words. When editing the fiction, you should ensure the length of the fiction to be as close as possible to the target length. If the fiction you produce deviates by more than 100 words from the target length (up or down), the fiction will be rejected for not following the instruction. You *must* edit the fiction to reach the target length.
