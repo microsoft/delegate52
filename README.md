@@ -20,7 +20,7 @@ The repository includes:
 - `run_single.py`: tests individual forward/backward edits in isolation (for quality assurance).
 - `model_openai.py`: a standalone OpenAI/Azure OpenAI wrapper for LLM generation.
 - `model_agentic.py`: an agentic harness where the LLM uses tools (read/write/delete files, run Python) in a multi-turn loop.
-- `domains/`: 52 domain-specific parsers and evaluators. See the [domain viewer](domain_viewer/) for a detailed introduction to each domain.
+- `domains/`: 52 domain-specific parsers and evaluators. See the [domain viewer](domain_viewer/README.md) for a detailed introduction to each domain.
 - `prompts/`: prompt templates used during simulation.
 
 <p align="center">
