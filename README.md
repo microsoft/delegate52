@@ -6,7 +6,7 @@
 
 ## Overview
 
-DELEGATE-52 is a benchmark for evaluating LLMs on long-horizon delegated document editing across 52 professional domains (crystallography files, music notation, accounting ledgers, Python source code, etc.). The repository enables reproduction of experiments from our paper: "[LLMs Corrupt Your Documents When You Delegate](upcoming_link)".
+DELEGATE-52 is a benchmark for evaluating LLMs on long-horizon delegated document editing across 52 professional domains (crystallography files, music notation, accounting ledgers, Python source code, etc.). The repository enables reproduction of experiments from our paper: "[LLMs Corrupt Your Documents When You Delegate](https://arxiv.org/abs/2604.15597)".
 
 **Dataset:** [microsoft/delegate52 on Hugging Face](https://huggingface.co/datasets/microsoft/delegate52)
 
@@ -35,7 +35,7 @@ The repository includes:
 
 We evaluated 19 LLMs from six families (OpenAI, Anthropic, Google, Mistral, xAI, Moonshot) using the Reconstruction Score (RS@k), which measures document preservation after k interactions via domain-specific similarity functions.
 
-A detailed discussion of our evaluation methods and results can be found in our paper at: [upcoming_link]
+A detailed discussion of our evaluation methods and results can be found in our paper at: https://arxiv.org/abs/2604.15597
 
 ## Dataset
 
@@ -113,8 +113,9 @@ If you make use of the code, data, or findings, please cite our paper:
 @article{laban2026delegate52,
   title={LLMs Corrupt Your Documents When You Delegate},
   author={Laban, Philippe and Schnabel, Tobias and Neville, Jennifer},
+  journal={arXiv preprint arXiv:2604.15597},
   year={2026},
-  note={Under review}
+  url={https://arxiv.org/abs/2604.15597}
 }
 ```
 
