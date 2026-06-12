@@ -201,9 +201,22 @@ class OpenAI_Model:
 
 
 # ── Module-level convenience functions ───────────────────────────────────
-_model = OpenAI_Model()
-generate = _model.generate
-generate_json = _model.generate_json
+_model = None
+
+
+def _get_model():
+    global _model
+    if _model is None:
+        _model = OpenAI_Model()
+    return _model
+
+
+def generate(*args, **kwargs):
+    return _get_model().generate(*args, **kwargs)
+
+
+def generate_json(*args, **kwargs):
+    return _get_model().generate_json(*args, **kwargs)
 
 
 if __name__ == "__main__":
